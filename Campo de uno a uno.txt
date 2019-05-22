@@ -1,0 +1,1 @@
+IF(OR(ISBLANK(de_Comisi_n__c ),ISBLANK( Monto_de_comisi_n__c )),AND(ISBLANK(de_Comisi_n__c ),ISBLANK(Monto_de_comisi_n__c)  ),false)
